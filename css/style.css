@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Young Serif";
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.aboutimg{
+    align-items:flex-start;
+}
+
+.about{
+    display: relative;
+    padding-right: 3rem;
+    padding-left: 3rem;
+}
+
+.aboutgrid{
+    justify-content: center;
+    margin-right: 2.5rem;
+    position: relative;
+}
+
+header.scrolled{
+    background-color: #FFEFBA;
+    box-shadow: 0 5px 20px 0.1px;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #330033;
+    font-size: 1.5rem;
+}
+
+.logo span{
+    color: #993300;
+}
+
+a:hover{
+    color: #ff1361;
+}
+header{
+    position: relative;
+    padding: 0 10rem;
+}
+.para{
+    margin-left: 50px;
+    font-size: 25px;
+    color: #44107a;
+    text-align: justify;
+    font-family: "Young Serif";
+}
+
+.para1{
+    font-size: 1rem;
+    color: #44107a;
+    text-align: justify;
+    font-family: "Young Serif";
+    margin-left: 10px;
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #330033;
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+}
+
+.stora{
+    text-align: center;
+    color: #44107a;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.navbar .logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 0;
+    padding-left: 0%;
+}
+
+.navbar .links{
+    display: flex;
+    gap: 3rem;
+}
+
+.navbar .toggle-btn{
+    color: #330033;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+    margin-left: 10px;
+}
+
+.br1{
+    font-weight: bold;
+    color: #44107a;
+    margin-left: 10px;
+    text-align: justify;
+    font-size: 1rem;
+}
+
+.dropdown{
+    display: none;
+    position: absolute;
+    height: 0;
+    right: 2rem;
+    top: 60px;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: height .2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.dropdown li{
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropdown.open{
+    height: 180px;
+}
+
+.animate-charcter{
+    font-size: 4.5rem;
+    padding-left: 60px;
+    margin-right: 20px;
+    color: #663300;
+    font-family: 'Lobster Two';
+    margin-bottom: 50px;
+    padding-bottom: 0;
+    background-image: linear-gradient(
+    225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 5s linear infinite;
+  display: inline-block;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.about2{
+    margin-top: 30px;
+    font-size: 4rem;
+    padding-left: 60px;
+    margin-right: 20px;
+    color: #663300;
+    font-family: 'Lobster Two';
+    margin-bottom: 50px;
+    padding-bottom: 0;
+    background-image: linear-gradient(
+    225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 5s linear infinite;
+  display: inline-block;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.image-container {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+  }
+  
+  .img {
+    max-width: 500px;
+    height: 400px;
+    margin-right: 0;
+    opacity: 0.9;
+    align-items: flex-end;
+    opacity: 0.7;
+  }
+
+audio{
+    display: none;
+}
+
+
+.about1{
+    padding-top: 50px;
+    background-image: linear-gradient(
+    225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    font-family: 'Lobster Two';
+    background-size: 200% auto;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 5s linear infinite;
+    font-size: 4rem;
+    margin-top: 0;
+    margin-left: 10px;
+    text-align: justify;
+}
+
+.image-overlay {
+    position: relative;
+}
+
+.image-overlay img {
+    position: absolute;
+    margin-top: -150px;
+    margin-left: 500px;
+    max-height: 900px;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.3; /* Adjust opacity as needed */
+    z-index: -1; /* Position the image behind the text */
+}
+
+
+.cards-list {
+    z-index: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    margin: 30px auto; 
+    width: 300px;
+    height: 300px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  
+  .card .card_image {
+    width: inherit;
+    height: inherit;
+    border-radius: 40px;
+  }
+  
+  .card .card_image img {
+    width: inherit;
+    height: inherit;
+    border-radius: 40px;
+    object-fit: cover;
+  }
+  
+  .card .card_title {
+    text-align: center;
+    border-radius: 0px 0px 40px 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: -80px;
+    height: 40px;
+  }
+  
+  .card:hover {
+    transform: scale(0.9, 0.9);
+    box-shadow: 5px 5px 30px 15px rgba(43, 4, 66, 0.25), 
+      -5px -5px 30px 15px rgba(48, 7, 53, 0.22);
+  }
+  
+  .card a {
+    color: white;
+  }
+
+
+@media (max-width:992px) {
+
+
+    .navbar .links{
+        display: none;
+    }
+
+    .navbar .toggle-btn{
+        display: block;
+    }
+
+
+    .dropdown{
+        display: block;
+    }
+
+    .animate-charcter{
+        font-size: 28px;
+        text-align:justify;
+        margin-left: -10px;
+    }
+
+    .img{
+        height: 200px;
+        width: 200px;
+        opacity: 0.5;
+    }
+    
+    .para{
+        font-size: 18px;
+        margin-top: -40px;
+    }
+
+    .about1{
+        font-size: 30px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        text-align: justify;
+    }
+
+    .para1{
+        margin-left: 10px;
+        font-size: 15px;
+        text-align: justify;
+    }
+
+    .br1{
+        margin-left: 10px;
+        font-size: 17px;
+        text-align: justify;
+    }
+
+    .stora{
+        text-align: justify;
+        font-size: 1.5rem;
+        margin-left: 8px;
+    }
+
+    .image-overlay img{
+        margin-left: 10px;
+        max-width: 300px;
+        margin-top: -80px;
+        opacity: 0.4;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about2{
+        font-size: 2rem;
+    }
+
+    .card-list {
+        flex-direction: column;
+      }
+}
+
+
